@@ -1,0 +1,151 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: black;
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.7;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    margin-top: 0;
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: black;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+nav img {
+    margin: 0.43em 0.45em;
+    height: 2.27em;
+    width: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+li {
+    flex-shrink: 0;
+    margin: 0.2em 1em;
+}
+
+ul a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+#mission {
+    position: relative;
+    top: 69px;
+    display: grid;
+    place-items: center;
+    min-height: 31.81rem;
+    background-image: url("img-mission-background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 54.5rem;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+.mission-container {
+    width: 100%;
+    color: seashell;
+    background-color: black;
+}
+
+.mission-container h4 {
+    margin: 0.45em auto;
+}
+
+.mission-container h2{
+    margin: 0.45em auto;
+}
+
+#featured {
+    position: relative;
+    top: 69px;
+    max-width: 45.45rem;
+    margin: 1.81em auto;
+}
+
+.tea-pic {
+    display: flex;
+    gap: 2.27em;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pic img {
+    width: 13.63em;
+    height: 9.09em;
+}
+
+.tea-pic h4{
+    margin-top: 0.45em;
+}
+
+#locations {
+    position: relative;
+    top: 69px;
+    min-height: 22.72rem;
+    max-width: 55.54em;
+    background-image: url("img-locations-background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    opacity: 1;
+}
+
+.address-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.address-item {
+    background-color: black;
+    width: 13.64em;
+    margin: 0.68em 0.91em;
+}
+
+#locations h2 {
+    margin: 0;
+}
+
+#locations h4 {
+    font-weight: 500;
+    line-height: 2.8;
+}
+
+footer {
+    position: relative;
+    top: 69px;
+    margin: 0 auto;
+}
+
+.contact {
+    min-height: 9.09rem;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 0.91em;
+}
